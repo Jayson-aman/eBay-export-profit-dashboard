@@ -1,0 +1,33 @@
+商品名,SKU,カテゴリ,仕入れ先,仕入れ値,想定販売価格,重量g,仕向地,発送方法,関税負担,目標ROI
+ポケモンカード 日本語版 BOX(ポケカ151/黒炎の支配者),PKM-BOX-001,ホビー・ポケモンカード,amazon_jp,5500,80,400,アメリカ,eパケット,False,30
+Nintendo Switch 有機EL 日本限定カラー(ゼルダ版),NSW-OLED-001,ゲーム,rakuten,42000,430,1000,アメリカ,EMS,False,30
+オールドレンズ Nikon AI-s 50mm f/1.4,LNS-NIK-001,カメラ・レンズ,yahoo_auction,15000,210,500,アメリカ,EMS,False,30
+G-SHOCK 日本限定モデル(GMW-B5000),WAT-GSH-001,時計,rakuten,18000,250,200,アメリカ,eパケット,False,30
+日本製包丁 藤次郎 三徳(VG-10),KIT-KNI-001,包丁・キッチン,rakuten,8000,160,400,アメリカ,EMS,False,30
+SEIKO SARB033 生産終了プレミア,WAT-SEI-001,時計,mercari,35000,380,400,ドイツ,EMS,False,30
+楽焼 黒茶碗 共箱付 明治期,ANT-TEA-001,骨董品・茶道具,yahoo_auction,25000,450,1200,イギリス,EMS,False,35
+九谷焼 赤絵金彩 花瓶 明治期,ANT-KUT-001,骨董品・陶磁器,yahoo_auction,12000,280,1800,アメリカ,EMS,False,30
+アンティーク着物 大島紬,ANT-KIM-001,骨董品・着物・帯,yahoo_auction,8000,160,900,フランス,EMS,False,30
+浮世絵 歌川広重 東海道五十三次 復刻,ANT-UKI-001,骨董品・浮世絵,yahoo_auction,18000,450,200,フランス,eパケット,False,35
+根付 象牙調 印籠セット,ANT-NET-001,骨董品・漆器・蒔絵,yahoo_auction,8000,180,100,イギリス,eパケット,False,35
+江戸切子 ロックグラス 伝統工芸,ANT-EDO-001,骨董品・陶磁器,rakuten,6000,120,600,フランス,EMS,False,30
+サンリオ クロミ 日本限定グッズ,SAN-KRM-001,ホビー・フィギュア,amazon_jp,2500,45,200,フランス,eパケット,False,30
+コム デ ギャルソン PLAY Tシャツ,FAS-CDG-001,ファッション,fanvi_terauchi,9000,150,400,フランス,EMS,False,30
+イッセイミヤケ バオバオ バッグ,FAS-IMK-001,ファッション,fanvi_terauchi,35000,480,600,フランス,EMS,False,30
+輪島塗 重箱 三段,ANT-WAJ-001,骨董品・漆器・蒔絵,yahoo_auction,15000,320,1500,フランス,EMS,False,30
+SEIKO 5 SNK809 日本版,WAT-SK5-001,時計,amazon_jp,12000,180,300,ドイツ,EMS,False,30
+Ricoh GR IIIx 日本版,CAM-RIC-001,カメラ・レンズ,rakuten,95000,850,300,ドイツ,EMS,False,25
+Makita 18V インパクトドライバー TD172,TOL-MAK-001,包丁・キッチン,rakuten,18000,220,1500,ドイツ,EMS,False,25
+ガンプラ MG プレバン限定 νガンダム Ver.Ka,HOB-GUN-001,ホビー・ガンプラ,surugaya,5500,110,800,オーストラリア,EMS,False,30
+一番くじ 鬼滅の刃 下位賞セット,HOB-ICH-001,ホビー・フィギュア,amazon_jp,1500,35,300,オーストラリア,EMS,False,30
+SK-II フェイシャルトリートメント 230ml,COS-SK2-001,化粧品,amazon_jp,12000,180,400,中国,EMS,False,25
+資生堂ザ・ギンザ 日本限定クリーム,COS-SHI-001,化粧品,rakuten,8000,130,400,台湾,EMS,False,25
+DHC ディープクレンジングオイル,COS-DHC-001,化粧品,amazon_jp,2000,35,300,中国,eパケット,False,25
+宇治抹茶 一保堂 月白 40g,FOD-UJI-001,化粧品,rakuten,3000,60,200,台湾,eパケット,False,30
+日本酒 十四代 純米大吟醸 720ml,FOD-SAK-001,化粧品,rakuten,25000,380,2000,中国,EMS,False,30
+CASIO A158WA-1 チプカシ日本版,WAT-CAS-001,時計,amazon_jp,2500,40,100,韓国,eパケット,False,25
+PILOT カスタム74 万年筆,STA-PIL-001,ホビー・フィギュア,amazon_jp,8000,120,100,韓国,eパケット,False,30
+ゼルダの伝説 ティアキン 日本版,GAM-ZEL-001,ゲーム,rakuten,4500,75,300,アメリカ,eパケット,False,30
+スタジオジブリ トトロ ぬいぐるみ 公式,HOB-GHI-001,ホビー・フィギュア,amazon_jp,2500,50,300,アメリカ,eパケット,False,30
+レトロゲーム スーパーファミコン 人気ソフト,GAM-SFC-001,ゲーム,surugaya,8000,150,200,アメリカ,eパケット,False,30
+遊戯王 日本語版 レアカード ブルーアイズ系,TCG-YGO-001,ホビー・ポケモンカード,surugaya,5000,120,50,アメリカ,eパケット,False,30

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.python-version
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Streamlit/runtime cache
+.streamlit/cache/
+.streamlit/runtime/
+
+# Generated uploads and result exports
+_uploaded.csv
+_result_all.csv
+_result_go.csv
+_yahoo_auc_input.csv
+_yahoo_auc_result.csv
+_yahoo_auc_go.csv
+results_all.csv
+results_go_only.csv
+top32_results_all.csv
+top32_results_go.csv
+
+# Logs
+*.log

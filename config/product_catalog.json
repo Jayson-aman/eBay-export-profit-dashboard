@@ -1,0 +1,24 @@
+{
+  "categories": {
+    "キャンプ・アウトドア": {
+      "margin_hint": "25〜60%",
+      "psych_tags": ["novelty", "escape", "comfort_home"],
+      "seasonal_peaks": [4, 5, 6, 7, 8, 9],
+      "destination_weight": {
+        "アメリカ": 1.06,
+        "オーストラリア": 1.08,
+        "__default__": 1.0
+      }
+    },
+    "アニメ・新グッズ": {
+      "margin_hint": "35〜90%",
+      "psych_tags": ["novelty", "fandom", "gift_casual"],
+      "seasonal_peaks": [3, 4, 11, 12],
+      "destination_weight": {
+        "アメリカ": 1.07,
+        "__default__": 1.0
+      }
+    }
+  },
+  "global_notes": "新しい品目ジャンルは categories にキーを追加してください。psych_tags は psychology_intent.PSYCH_DRIVERS のキーから選びます。seasonal_peaks は需要が上がりやすい月(1-12)。destination_weight は仕向け先ごとの補正（省略時 __default__）。"
+}

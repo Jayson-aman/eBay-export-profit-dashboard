@@ -1,0 +1,8 @@
+﻿商品名,SKU,カテゴリ,仕入れ先,仕入れ値,想定販売価格,重量g,仕向地,発送方法,関税負担,目標ROI
+九谷焼 赤絵金彩 花瓶 明治期 共箱付,ANT-KUT-001,骨董品・陶磁器,yahoo_auction,12000,280,1800,アメリカ,EMS,False,30
+Nikon AI-s 50mm f/1.4 レンズ,CAM-NIK-001,カメラ・レンズ,yahoo_auction,15000,210,500,アメリカ,EMS,False,30
+楽焼 黒茶碗 共箱付,ANT-TEA-001,骨董品・茶道具,yahoo_auction,25000,450,1200,イギリス,EMS,False,35
+SEIKO SARB033 自動巻腕時計,WAT-SEI-001,時計,mercari,35000,380,400,ドイツ,EMS,False,30
+ポケモンカード リザードン 1st Ed,PKM-001,ホビー・ポケモンカード,surugaya,8000,180,80,アメリカ,eパケット,False,30
+西陣織 絹帯 アンティーク,ANT-KIM-001,骨董品・着物・帯,yahoo_auction,8000,160,900,フランス,EMS,False,30
+利益薄赤字テスト品（見送り例）,TEST-001,化粧品,amazon_jp,5000,45,300,アメリカ,EMS,False,30
