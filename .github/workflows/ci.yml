@@ -1,0 +1,26 @@
+# Push / PR 時に依存関係のインストールと構文チェックを実行します。
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Syntax check
+        run: |
+          python -m py_compile amazon_fba_tools.py amazon_fba_research_app.py barcode_jan.py

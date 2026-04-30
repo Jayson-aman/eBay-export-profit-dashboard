@@ -37,9 +37,14 @@ def normalize_product_barcode(raw: str) -> tuple[str | None, str]:
 
 def search_rakuten_yahoo_shopping(
     code: str,
+    hits: int = 20,
 ) -> tuple[list[dict[str, Any]], list[str]]:
     """
     楽天・Yahoo!S で keyword=code として検索し、1列のリストにマージ（source 列で区別）。
+
+    Args:
+        code: JAN 等の数字列
+        hits: 各モールの取得上限（楽天最大30、Yahoo!最大50にクリップ）
 
     Returns:
         (items, per_source_error_messages) — 件数0でもエラー文が入る場合あり
@@ -47,11 +52,14 @@ def search_rakuten_yahoo_shopping(
     from rakuten_search import search as rken_search
     from yahoo_shopping_search import search as yh_search
 
+    hits_r = min(max(int(hits), 1), 30)
+    hits_y = min(max(int(hits), 1), 50)
+
     rows: list[dict[str, Any]] = []
     errs: list[str] = []
     # 楽天
     try:
-        for it in rken_search(keyword=code, hits=20):
+        for it in rken_search(keyword=code, hits=hits_r):
             it = dict(it)
             it["lookup_type"] = "キーワード=バーコード"
             it["code_searched"] = code
@@ -60,7 +68,7 @@ def search_rakuten_yahoo_shopping(
         errs.append(f"楽天: {e}")
     # Yahoo!ショッピング
     try:
-        for it in yh_search(keyword=code, hits=20):
+        for it in yh_search(keyword=code, hits=hits_y):
             it = dict(it)
             it["lookup_type"] = "キーワード=バーコード"
             it["code_searched"] = code

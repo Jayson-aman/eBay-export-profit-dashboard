@@ -8,7 +8,12 @@
 #   chmod +x start_external_access.sh
 #   ./start_external_access.sh
 #
+# FBA リサーチ画面を出す例:
+#   STREAMLIT_APP=amazon_fba_research_app.py ./start_external_access.sh
+#
 # 起動後、表示される https://....trycloudflare.com を携帯ブラウザで開く
+#
+# 常時・HTTPS でスマホから使うなら GitHub に push し Streamlit Community Cloud 利用を推奨（リポジトリの DEPLOY.md）。
 #
 # 注意: URL を知る人は誰でも当該PCで動いている限り中身にアクセス可能です。不要になったら Ctrl+C で止めてください。
 
@@ -17,12 +22,13 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ROOT"
 
 PORT="${STREAMLIT_PORT:-8501}"
+STREAMLIT_APP="${STREAMLIT_APP:-dashboard.py}"
 
 cleanup() { kill "${STREAMPID:-0}" 2>/dev/null || true; }
 trap cleanup EXIT
 
-echo "Streamlit を 0.0.0.0:$PORT で起動します…"
-python3 -m streamlit run dashboard.py \
+echo "Streamlit を 0.0.0.0:$PORT で起動します… ($STREAMLIT_APP)"
+python3 -m streamlit run "$STREAMLIT_APP" \
   --server.port "$PORT" \
   --server.address 0.0.0.0 \
   --server.headless true \
